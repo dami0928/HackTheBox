@@ -82,15 +82,15 @@ Finished
 - fs
 
 *allowed*
--url
--crypto
--util
--events
--assert
--stream
--path
--os
--zlib
+- url
+- crypto
+- util
+- events
+- assert
+- stream
+- path
+- os
+- zlib
 
 
 # Sandbox Escape vm2
