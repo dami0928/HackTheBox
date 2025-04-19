@@ -78,19 +78,19 @@ Finished
 > /limitations
 
 *Restristed*
-child_process
-fs
+- child_process
+- fs
 
 *allowed*
-url
-crypto
-util
-events
-assert
-stream
-path
-os
-zlib
+-url
+-crypto
+-util
+-events
+-assert
+-stream
+-path
+-os
+-zlib
 
 
 # Sandbox Escape vm2
@@ -121,7 +121,7 @@ const code = `
 console.log(vm.run(code)); // -> hacked
 ```
 
-got some issue to get RCE , so i uploaded a shell.sh with this payload
+got some issue to get a reverse shell , so i uploaded a shell.sh with this payload
 
 ```bash
 const { VM } = require("vm2");
